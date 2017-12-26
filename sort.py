@@ -122,6 +122,7 @@ def quick_sort_helper(arr, i, j):
 
 # a = [7, 4, 1, 3, 6, 2, 5]
 # a = [5,5,4,3,2,2,1]
-a = [1, 2, 2, 3, 4, 5, 5]
-quick_sort(a, 0, len(a)-1)
+a = [6, 2, 5, 1, 1, 2, 2, 3, 4, 5, 5]
+# quick_sort(a, 0, len(a)-1)
+insertion_sort(a)
 print(a)
