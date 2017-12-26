@@ -1,1 +1,10 @@
 *.pyc
+*.txt
+*.log
+*.npy
+*.bin
+*.json
+*.ipynb
+*.csv
+*.pkl
+py-data
