@@ -7,4 +7,4 @@
 *.ipynb
 *.csv
 *.pkl
-py-data
+.idea/
