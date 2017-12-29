@@ -10,3 +10,4 @@
 .idea/
 .cache/
 .coverage
+.hypothesis/
