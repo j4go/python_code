@@ -17,7 +17,9 @@ def dispatch_if(operator, x, y):
         return x / y
     return None
 
+
 print(dispatch_if('mul', 2, 3))
+
 
 def dispatch_dict(operator, x, y):
     """如果分支有很多很多的话，用字典查找可以提高效率。
@@ -29,6 +31,7 @@ def dispatch_dict(operator, x, y):
         'mul': lambda : x * y,
         'div': lambda : x / y,
     }.get(operator, lambda : None)()
+
 
 print(dispatch_dict('div', 2, 3))
 
