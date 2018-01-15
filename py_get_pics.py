@@ -48,7 +48,7 @@
 # -*- coding: utf-8 -*-
 import sys, requests, uuid, hashlib
 url = "https://source.unsplash.com/random/800x450"
-pic_url = "/Users/molock/py3env/" # 要保存的图片的目录
+pic_url = "/Users/molock/Desktop/" # 要保存的图片的目录
 r = requests.get(url=url)   
 url = r.url # 获得真实的图片url
 status_code = r.status_code
