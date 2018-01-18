@@ -958,8 +958,6 @@ print(min(n-collect[i-2], collect[i-1]-n))
 4
 
 
-"""
-
 ## [编程题]数字游戏
 
 # python 3
@@ -980,7 +978,7 @@ for i in lst:
 print(target+1)
 
 
-
+"""
 
 
 
