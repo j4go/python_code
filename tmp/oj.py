@@ -9,3 +9,5 @@ if len(lst) >= 3:
     print(lst[2])
 else:
     print(-1)
+
+
